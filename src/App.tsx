@@ -78,7 +78,7 @@ function App() {
   };
 
   return (
-    <div className="App">
+    <div className="App" style={{ display:`flex`,justifyContent:`center`, width:`100vw` }}>
       <div className="timer">
         <input
           type="number"
